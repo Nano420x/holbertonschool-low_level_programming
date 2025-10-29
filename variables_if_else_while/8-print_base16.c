@@ -8,10 +8,10 @@
  */
 int main(void)
 {
-char* b = "0123456789abcdef";
+char *b = "0123456789abcdef";
 int i = 0;
 
-	while (i < 16) 
+	while (i < 16)
 	{
 	putchar(b[i]);
 
@@ -20,5 +20,5 @@ int i = 0;
 
 	putchar('\n');
 
-	return 0;
+	return (0);
 }
