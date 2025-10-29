@@ -1,19 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - Prints all single digit numbers of base 10 starting from 0,
+ * main - Prints all Numbers of base 16 and starting by 0 and 6 letters,
  * followed by a new line
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-	int n;
+int main(void) {
+  char* b = "0123456789abcdef";
+  int i = 0;
 
-	for (n = 0; n <= 16; n++)
-	{
-		putchar(n + '0');
-	}
-	putchar('\n');
-	return (0);
+  while (i < 16) {
+    putchar(b[i]);
+
+    i++;
+  }
+
+  putchar('\n');
+
+  return 0;
 }
