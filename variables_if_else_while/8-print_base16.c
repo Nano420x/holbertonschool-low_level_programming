@@ -6,17 +6,19 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void) {
-  char* b = "0123456789abcdef";
-  int i = 0;
+int main(void)
+{
+char* b = "0123456789abcdef";
+int i = 0;
 
-  while (i < 16) {
-    putchar(b[i]);
+	while (i < 16) 
+	{
+	putchar(b[i]);
 
-    i++;
-  }
+	i++;
+	}
 
-  putchar('\n');
+	putchar('\n');
 
-  return 0;
+	return 0;
 }
