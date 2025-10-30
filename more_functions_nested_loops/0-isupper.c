@@ -3,9 +3,8 @@
 
 /**
   * main- entry point
-  *
+  * c: C c'est C idk
   * _isupper: return(1)
-  * c: c'est le c
   */
 
 int _isupper(int c)
