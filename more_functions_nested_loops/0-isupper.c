@@ -3,8 +3,12 @@
 
 /**
   * main- entry point
-  * c : C c'est C idk
+  *
+  * c The character to check.
+  *
   * _isupper : return(1)
+  *
+  * return 1 if c is uppercase, 0 otherwise.
   */
 
 int _isupper(int c)
