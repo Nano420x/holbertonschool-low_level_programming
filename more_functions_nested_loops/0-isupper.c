@@ -2,14 +2,10 @@
 #include "main.h"
 
 /**
- * main- entry point
- *
- * c The character to check.
- *
- * _isupper : return(1)
- *
- * return 1 if c is uppercase, 0 otherwise.
- */
+* _isupper- il fais des trucs plutot pas mal
+* @c: int le c pour qu'il vaux un truc
+* Return: Always 0 (Success)
+*/
 
 int _isupper(int c)
 {
