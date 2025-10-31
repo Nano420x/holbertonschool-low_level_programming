@@ -2,7 +2,7 @@
 
 /**
 * print_most_numbers- Starfoula
-* @c on inte le caractere
+* @c on int le caractere
 * Return: Always 0 (Success)
 */
 void print_most_numbers(void)
