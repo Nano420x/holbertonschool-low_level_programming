@@ -1,21 +1,17 @@
 #include "main.h"
 
 /**
- * print_alphabet - Prints the lowercase alphabet followed by a new line.
- *
- * This function prints all characters from 'a' to 'z' using _putchar,
- * and adds a new line at the end.
- *
- * Return: Nothing (void).
- */
+* print_alphabet- Starfoula je te alala betty
+* Return: Always 0 (Success)
+*/
 void print_alphabet(void)
 {
-	char print_alphabet = 'a';
 
-	while (print_alphabet <= 'z')
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		_putchar(print_alphabet);
-		print_alphabet++;
+	_putchar(c);
 	}
 	_putchar('\n');
 }
